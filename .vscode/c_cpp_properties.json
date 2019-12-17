@@ -1,9 +1,13 @@
 {
     "configurations": [
         {
-            "name": "Mac",
+            "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/include/x86_64-linux-gnu/c++/7",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include/c++/7",
+                "${workspaceFolder}/header"
             ],
             "defines": [],
             "macFrameworkPath": [
@@ -13,7 +17,18 @@
             "compilerPath": "/usr/bin/g++",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "gcc-x86"
+            "intelliSenseMode": "gcc-x64"
+        },
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "intelliSenseMode": "clang-x64",
+            "cppStandard": "c++17"
         }
     ],
     "version": 4
