@@ -1,5 +1,5 @@
 #include <iostream>
-#include "./header/MY_CONSTANTS.h"
+#include "../header/MY_CONSTANTS.h"
 using namespace std;
 
 // int main()
