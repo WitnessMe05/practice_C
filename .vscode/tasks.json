@@ -6,7 +6,7 @@
             "type": "shell",
             "command": "gcc",
             "args": [
-                "-g",
+                "-g3",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}.out",
                 "${file}"
@@ -21,7 +21,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g",
+                "-g3",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}.out",
                 "${file}",
