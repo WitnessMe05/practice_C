@@ -25,7 +25,7 @@ int main()
     my_article_flags ^= option_liked;
     cout << bitset<8>(my_article_flags) << endl;
 
-    // delete viewd article
+    // delete viewed article
     if (option_viewed & my_article_flags)
         my_article_flags |= option_deleted;
     cout << bitset<8>(my_article_flags) << endl;
