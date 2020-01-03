@@ -1,5 +1,5 @@
 #include <iostream>
-#include "MyHeaders/add.h" // 만든 헤더 경로 써주면 됨
+#include "add.h" // 만든 헤더 경로 써주면 됨
 
 using namespace std;
 
