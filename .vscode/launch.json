@@ -16,7 +16,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "miDebuggerPath": "/usr/bin/gdb",
+            "miDebuggerPath": "/usr/share/gdb",
             "preLaunchTask": "g++ build active file"
         }
     ]
