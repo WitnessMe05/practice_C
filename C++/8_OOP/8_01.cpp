@@ -29,5 +29,5 @@ int main()
     my_friends.resize(2);
 
     for(auto &e : my_friends)
-        e.print()
+        e.print();
 }
